@@ -19,8 +19,8 @@ print(arr1, arr2, arr3, sep = "\n\n")
 
 print(arr1.ndim, arr2.ndim, arr3.ndim)
 
-# To create an n-dimension array, you can use the ndmin attribute
+# To create an n-dimension array, you can use the ndmin attribute.
 
-arr4 = np.array([1, 2, 3, 4], ndmin = 5)
+arr4 = np.array([1, 2, 3, 4], ndmin = 5) # Creates a 5D array
 print(arr4)
 print("No. of Dimension = ", arr4.ndim)
